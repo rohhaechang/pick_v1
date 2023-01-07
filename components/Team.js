@@ -1,7 +1,7 @@
 import React from 'react'
 import { ChevronRightIcon } from '@heroicons/react/24/solid'
 
-export default function () {
+export default function Team() {
   return (
     <div className="m-16">
       <div className=" py-5">

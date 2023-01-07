@@ -8,11 +8,6 @@ export default function Header() {
     event.preventDefault()
     router.push(`/${menu}`)
   }
-  useEffect(() => {
-    if (router.pathname === '/matching') {
-      console.log('right!')
-    }
-  }, [])
   return (
     <div className="sticky top-0">
       <div className="bg-white flex justify-between">
